@@ -1,0 +1,10 @@
+^C:\USERS\DUDE_\ONEDRIVE\РАБОЧИЙ СТОЛ\LABS\STECK\LAB-3\BUILD\CMAKEFILES\7968DA1BA0B2825A3C2681A40D5CFD9B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/dude_/OneDrive/Рабочий стол/Labs/Steck/Lab-3" "-BC:/Users/dude_/OneDrive/Рабочий стол/Labs/Steck/Lab-3/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/dude_/OneDrive/Рабочий стол/Labs/Steck/Lab-3/build/Steck.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
