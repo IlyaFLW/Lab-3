@@ -1,4 +1,4 @@
-set(target test_Steck)
+set(target test_TSteck)
 
 file(GLOB hdrs "*.h*")
 file(GLOB srcs "*.cpp")
