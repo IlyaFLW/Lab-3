@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\dude_\OneDrive\Рабочий стол\Labs\Steck\Lab-3\test\test_TSteck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dude_\OneDrive\Рабочий стол\Labs\Steck\Lab-3\test\test_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dude_\OneDrive\Рабочий стол\Labs\Steck\Lab-3\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F9B37236-5B69-32B3-BB6C-1A53983E3977}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
